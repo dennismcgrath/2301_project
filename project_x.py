@@ -20,6 +20,10 @@ import angelica
 import tim
 import aaron
 
+import vadim
+import monica
+import dennis
+
 ali=ali.ali()
 mari=mari.mari()
 shaday=shaday.shaday()
@@ -42,8 +46,22 @@ angelica=angelica.angelica()
 tim=tim.tim()
 aaron=aaron.aaron()
 
+vadim=vadim.vadim()
+monica=monica.monica()
+dennis=dennis.dennis()
+
 number=10
 print ("The starting number is ", number)
+
+number=dennis.update(number)
+print ("Dennis changed the number to ", number)
+
+number=monica.update(number)
+print ("Monica changed the number to ", number)
+
+number=vadim.update(number)
+print ("Vadim changed the number to ", number)
+
 
 number=ali.update(number)
 print ("Ali changed the number to ", number)
