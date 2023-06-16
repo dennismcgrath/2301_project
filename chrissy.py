@@ -2,5 +2,7 @@ class chrissy:
     def __init__(self):
         pass
     def update(self, x):
-        # Method code goes here
+        # Chrissy's code went here on June 16
+        x = x-420.69
         return(x)
+    
