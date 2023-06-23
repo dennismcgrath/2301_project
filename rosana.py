@@ -2,5 +2,5 @@ class rosana:
     def __init__(self):
         pass
     def update(self, x):
-        # Method code goes here
+        x=x*40
         return(x)
